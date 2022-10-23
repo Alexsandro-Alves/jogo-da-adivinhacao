@@ -69,6 +69,7 @@ class Game:
             if self.validate_possibilities(guessed):
                 break
         print('Fim de jogo!')
+        print(f'O número era {self.random_number}')
         self.calc_score()
 
     def calc_score(self) -> int:
